@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Audiowide|Open+Sans|Raleway:300);
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background: black;
+}
+nav {
+  background: rgba(63, 124, 191, .5) !important;
+}
+footer {
+  text-align: center;
+  background-color: #2c3e50 !important;
+  padding: 5vh 0 !important;
+}
+.AK {
+  font-family: "Audiowide",sans-serif;
+  text-decoration: underline;
+  color: #7A52CC;
+}
+.AK span {
+  color: #FF0000;
+}
+.Hero {
+  background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url('https://futureoflife.org/wp-content/uploads/2015/11/artificial_intelligence_benefits_risk.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  padding: 38vh 0;
+  text-align: center;
+  font-size: 32px;
+}
+.Spacer {
+  background: #3f7cbf;
+  padding: 9vh 0;
+  text-align: center;
+}
+.Text1 {
+  height: 100vh;
+  background-image: url('https://outoftheboxscience.com/wp-content/uploads/2017/04/Artificial-Intelligence.jpg');
+  background-size: cover;
+}
+.Text1 .row {
+  position: relative;
+  top: 40vh;
+}
