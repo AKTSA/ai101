@@ -1,63 +1,62 @@
 <html>
-
 <head>
   <title>AI101 - A Guide to Artificial Intelligence</title>
-  <!-- <link rel="stylesheet" href="/uni.css"> -->
   <link rel="stylesheet" href="uni.css">
-  <!-- Compiled and minified CSS -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Compiled and minified JavaScript -->
+  <meta name="description" content="AI101 - A Guide to Artificial Intelligence">
+  <meta name="author" content="Agnim Agarwal">
+  <meta charset="UTF-8">
 </head>
 
 <body>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      $(".button-collapse").sideNav();
-    });
-  </script>
-
-  <div class="navbar-fixed">
-    <nav class="">
-      <div class="nav-wrapper">
-        <a href="#" class="brand-logo">&nbsp;AI 101</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="About/">About Us</a></li>
-          <li><a href="Uses/">Uses</a></li>
-          <li><a href="Tech/">Technology</a></li>
-          <li><a href="Conc/">Concerns</a></li>
-          <!-- Dropdown Trigger -->
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <div class="Hero">
+  <!-- <div id="navBox"></div> -->
+  <script src="nav.js"></script>
+  <div class="HomeHero Hero">
     <span>AI 101 - A Guide to Artificial Intelligence</span>
+    <p class="HomeNote">This site is currently under construction. Please don't freak out if anything breaks.</p>
   </div>
   <div class="Spacer">
     "I visualize a time when we will be to robots what dogs are to humans, and I’m rooting for the machines."<br>-Claude Shannon
   </div>
-  <div class="Text1">
-    <div class="row">
-      <div class="col s6 offset-s6">
-        <div class="card">
-          <div class="card-content black-text">
-            <span class="card-title">What is Artificial Intelligence?</span>
-            <p>Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, and self-correction. Particular applications of AI include expert systems,
-              speech recognition, and machine vision.
-            </p>
-          </div>
-        </div>
-      </div>
+  <div class="Text1 TextBox">
+    <div class="Text w6 off6 rellax" data-rellax-speed="-1" data-rellax-percentage="0.5">
+      <h1>What is Artificial Intelligence?</h1>
+      <p>Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, and self-correction. Particular applications of AI include expert systems, speech
+        recognition, and machine vision. To learn more about the applications of AI, see our <a href="uses.html">uses</a> page.
+      </p>
     </div>
-
   </div>
-  <footer class="page-footer">
-    Designed and Built for <a class="AK" href="http://aktsa.org">AK <span>TSA</span></a> by Agnim Agarwal
-  </footer>
+  <div class="Text2 TextBox">
+    <div class="Text w6 rellax" data-rellax-speed="1" data-rellax-percentage="0.5">
+      <h1>What are the benefits?</h1>
+      <p>Because of its ability to recursively self-improve, AI can develop a superintelligence that can help the human race in a multitude of ways. From eradicating events from war to poverty, the creation of AI might be the biggest event in human history.
+        Furthermore, the ability to perform tasks without the articulation of our own knowledge allows AI-powered systems to perform tasks on their own.
+      </p>
+    </div>
+  </div>
+  <div class="Text3 TextBox">
+    <div class="Text w6 off6 rellax" data-rellax-speed="1" data-rellax-percentage="0.5">
+      <h1>Why Not</h1>
+      <p></p>
+    </div>
+  </div>
+  <div id="footBox"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // $("#navBox").load("nav.html");
+      $("#footBox").load("footer.html");
+      $(".button-collapse").sideNav();
+    });
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.4.0/rellax.js"></script>
+  <script>
+    // Accepts any class name
+    var rellax = new Rellax('.rellax');
+  </script>
 </body>
 
 </html>
