@@ -2,33 +2,68 @@
 Sources:
 Tech -
   - Materialize
-  - Skrollr.js
-  - Rellax.js
   - JQuery
 Research
-  - http://searchcio.techtarget.com/definition/AI
-  - https://hbr.org/cover-story/2017/07/the-business-of-artificial-intelligence
-  -
+http://oceanexplorer.noaa.gov/technology/diving/scuba/scuba.html
+
+=============================
+Plan:
+
+Home - Address issue of ocean discovery, offer solution by describing the AquaBot
+
+About - What is the AquaBot, uses,
+
+Uses -
+Business
+ - Ocean Discovery
+Recreational
+ - Scuba diving
+ - Public Swimming
+Benefits -
+ - Research
+ - Safety
+Tech -
+
+Concerns -
+
+Cost -
+
+
+
+
+
+
+
+
+
 
 */
 
 
 /*=================== MAIN CSS ==============================*/
 
-@import url('https://fonts.googleapis.com/css?family=Share+Tech');
-@import url('http://fonts.googleapis.com/css?family=Audiowide|Open+Sans|Raleway:300');
+@import url('//fonts.googleapis.com/css?family=Open+Sans');
+@import url('//fonts.googleapis.com/css?family=Share+Tech');
+@import url('//fonts.googleapis.com/css?family=Audiowide|Open+Sans|Raleway:300');
 html, body {
-  font-family: 'Share Tech', sans-serif;
-  /*font-family: 'Open Sans', sans-serif;*/
+  /*font-family: 'Share Tech', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: white;
+  color: black;
   background: black;
   height: 100%;
   width: 100%;
 }
-
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px 0;
+}
 nav {
-  background: rgba(63, 124, 191, .5) !important;
+  background: rgba(63, 124, 191, 1) !important;
+}
+.dropdown-content a{
+  color: black !important;
 }
 
 footer {
@@ -48,26 +83,53 @@ footer {
 }
 
 .Hero {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   height: 80vh;
   text-align: center;
   font-size: 32px;
 }
+.Title {
+  top: 20vh;
+  font-size: 32px;
+  background: white !important;
+  color: black !important;
+}
+.Spacer {
+  background: #3f7cbf;
+  padding: 9vh 0;
+  text-align: center;
+}
 
+.Content {
+  background: #f5f5f5;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10vh 10vw;
+}
+.Content .Box {
+  z-index: 2;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  padding: 20px;
+  margin: 10px 0;
+  background: #f5f5f5;
+}
 
-/*Text*/
+/*Text - Can be integrated with title*/
 
 .Text {
   position: relative;
   padding: 10px;
-  top: 40vh;
   min-width: 0;
   margin: 0 1vw;
-  background: white;
-  color: black;
+  background: #f5f5f5;
   border-radius: 1px;
   box-shadow: 1px 1px 2px black;
+}
+.TextBox {
+  padding: 20vh 0 !important;
 }
 
 .Text h1 {
@@ -76,7 +138,7 @@ footer {
 }
 
 .w6 {
-  width: 48vw;
+  width: 45vw;
 }
 
 .off6 {
@@ -88,50 +150,18 @@ footer {
     top: 10vh;
   }
 }
-.Title {
-  top: 20vh;
-}
-.Title h1{
-  font-size: 32px;
-}
+
 
 /*==============   HOME PAGE  ============== */
 
 .HomeHero {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://futureoflife.org/wp-content/uploads/2015/11/artificial_intelligence_benefits_risk.jpg');
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)),
+  url('https://image.freepik.com/free-vector/abstract-dark-blue-polygonal-background_1035-9700.jpg');
   padding: 38vh 0;
-}
-.HomeNote {
-  width: 20vw;
-  margin: 0;
-  padding: 5px;
-  position: absolute;
-  bottom: 9vh;
-  background: #2c3e50;
-  border-radius: 3px;
-  font-size: 16px;
-}
-.Spacer {
-  background: #3f7cbf;
-  padding: 9vh 0;
-  text-align: center;
+  color: white;
 }
 
-.TextBox {
-  background-size: cover;
-  height: 100vh;
-}
-
-.Text1 {
-  background-image: url('https://outoftheboxscience.com/wp-content/uploads/2017/04/Artificial-Intelligence.jpg');
-}
-
-.Text2 {
-  background-image: url('http://cdn.washingtonexaminer.biz/cache/1060x600-2a681215b158ff0ad669323aae1836fe.jpg');
-}
-.Text3 {
-  background-image: url('http://i2.cdn.turner.com/money/dam/assets/160928120831-melinda-gates-artificial-intelligence-00010204-1024x576.jpg');
-}
 
 /*==============   ABOUT US PAGE  ============== */
 
