@@ -1,9 +1,10 @@
 <html>
 <head>
-  <title>Who Are We - Innovate Robotics</title>
+
+  <title>About Us</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <link rel="stylesheet" href="uni.css">
+  <link rel="stylesheet" href="css/uni.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Who Are We - Innovate Robotics">
   <meta name="author" content="Agnim Agarwal">
@@ -11,39 +12,68 @@
 </head>
 <body>
   <!-- <div id="navBox"></div> -->
-  <script src="nav.js"></script>
+  <script src="js/nav.js"></script>
   <div class="Hero UsHero">
     <div class="Text Title">
-      <h1>Who Are We</h1>
+      <h1>About Us</h1>
     </div>
   </div>
   <div class="Spacer">
   </div>
 
-
-<!--  ============================ CONTENT STARTS HERE ==============================-->
-
+  <!--  ============================ CONTENT STARTS HERE ==============================-->
 
 
+  <div class="Content" style="">
+    <div class="row">
+      <div class="col s12 m12">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="http://www.ti.com/corp/docs/company/images/20610_mission.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <span class="card-title">Who are We</span>
+              <p>We are a group of software developers looking to make a difference in the world. When we found the underlying issue of the lack of research efforts being made in our oceans, we knew something had to be done. Our efforts to incorporate Artificial
+                Intelligence with marine life research formed the AquaBot, now the most advanced product in the field of underwater activity.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m12">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="https://www.bankofbaroda.com/writereaddata/Portal/CMS_Template_Banner/42_1_contact-us.jpg">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <span class="card-title">Contact Us</span>
+              <p>If you have any questions about our work or simply would like to get in touch with us, fill out our contact form <a href="cont.html">here</a>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- ============================================================================== -->
 
 
-
-<!-- ============================================================================== -->
-
-
-<div id="footBox"></div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script>
-  $(document).ready(function() {
-    // $("#navBox").load("nav.html");
-    $("#footBox").load("footer.html");
-    $(".us").addClass("active");
-    $(".button-collapse").sideNav();
-    $(".dropdown-button").dropdown({
-      hover: true
+  <div id="footBox"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // $("#navBox").load("nav.html");
+      $("#footBox").load("footer.html");
+      $(".us").addClass("active");
+      $(".button-collapse").sideNav();
+      $(".dropdown-button").dropdown({
+        hover: true
+      });
     });
-  });
-</script>
+  </script>
 </body>
 </html>
