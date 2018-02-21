@@ -1,0 +1,328 @@
+/*
+Sources:
+Tech -
+  - Materialize
+  - JQuery
+Research
+http://oceanexplorer.noaa.gov/technology/diving/scuba/scuba.html
+
+=============================
+Plan:
+
+Home - Address issue of ocean discovery, offer solution by describing the AquaBot
+
+About - What is the AquaBot, uses,
+
+Uses -
+Business
+ - Ocean Discovery
+Recreational
+ - Scuba diving
+ - Public Swimming
+Benefits -
+ - Research
+ - Safety
+Tech -
+
+
+Concerns -
+
+Cost -
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+/*=================== MAIN CSS ==============================*/
+
+@import url('//fonts.googleapis.com/css?family=Open+Sans');
+@import url('//fonts.googleapis.com/css?family=Share+Tech');
+@import url('//fonts.googleapis.com/css?family=Audiowide|Open+Sans|Raleway:300');
+html, body {
+  /*font-family: 'Share Tech', sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: black;
+  background: black;
+  height: 100%;
+  width: 100%;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 10px 0;
+}
+img {
+  height: 100% !important;
+  width: 100% !important;
+}
+nav {
+  background: #2c3e50 !important;
+}
+.dropdown-content a{
+  color: black !important;
+}
+
+footer {
+  text-align: center;
+  background-color: #2c3e50 !important;
+  padding: 5vh 0 !important;
+}
+
+.AK {
+  font-family: "Audiowide", sans-serif;
+  text-decoration: underline;
+  color: #7A52CC;
+}
+
+.AK span {
+  color: #FF0000;
+}
+
+.Hero {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  text-align: center;
+  font-size: 32px;
+}
+.Title {
+  top: 20vh;
+  font-size: 32px;
+  background: white !important;
+  color: black !important;
+}
+.Spacer {
+  background: #2c3e50;
+  padding: 9vh 0;
+  text-align: center;
+}
+
+.Content {
+  background-color: #f5f5f5;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10vh 5vw !important;
+  background: #f5f5f5;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10vh 10vw;
+}
+.Content .Box {
+  z-index: 2;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+  padding: 20px;
+  margin: 10px 0;
+  background: #f5f5f5;
+}
+.Content p {
+  /* border: 1px solid blue; */
+  /* width: 35%; */
+}
+/* .Content .Box img {
+  width: 35%;
+  height: 50%;
+  position: relative;
+  right: 0;
+} */
+
+/*Text - Can be integrated with title*/
+
+.Text {
+  position: relative;
+  padding: 10px;
+  min-width: 0;
+  margin: 0 1vw;
+  background: #f5f5f5;
+  border-radius: 1px;
+  box-shadow: 1px 1px 2px black;
+}
+.TextBox {
+  padding: 20vh 0 !important;
+}
+
+.Text h1 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.w6 {
+  width: 45vw;
+}
+
+.off6 {
+  margin-left: 50vw;
+}
+.card-image {
+  height: 50vh;
+  width: 40vw;
+}
+@media only screen and (max-width: 760px) {
+  .Text {
+    top: 10vh;
+  }
+  .card-image {
+    width: 0 !important;
+    height: 0 !important;
+  }
+}
+
+
+/*==============   HOME PAGE  ============== */
+
+.HomeHero {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)),
+  url('https://image.freepik.com/free-vector/abstract-dark-blue-polygonal-background_1035-9700.jpg');
+  padding: 38vh 0;
+  color: white;
+}
+
+
+/*==============   US PAGE  ============== */
+.UsHero {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)),
+  url('http://files.cluster2.hgsitebuilder.com/hostgator42104/image/aboutus.jpg');
+  color: white;
+}
+
+
+/*=============    CONC PAGE ===================*/
+.ConcHero {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)),
+  url('http://betheme.muffingroupsc.netdna-cdn.com/be/underwater/wp-content/uploads/2016/05/home_underwater_sectionbg2.jpg');
+  color: white;
+}
+
+/*==============   USES PAGE  ============== */
+
+.UsesHero {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.yourstory.com/wp-content/uploads/2015/05/Yourstory_AI.jpg');
+}
+
+
+/* full width/height container */
+
+#slides-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+/* double the height/width of a viewport */
+
+#slides {
+  width: 200%;
+  height: 200%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 50%;
+}
+
+
+/* Slide 2 goes to the bottom left */
+
+#slide-2 {
+  background: white no-repeat center center;
+  background-size: cover;
+  -webkit-transform: translate(0, 100%);
+  -ms-transform: translate(0, 100%);
+  transform: translate(0, 100%);
+}
+
+
+/* Slide 3 goes to the bottom right */
+
+#slide-3 {
+  background: blue no-repeat center center;
+  background-size: cover;
+  -webkit-transform: translate(100%, 100%);
+  -ms-transform: translate(100%, 100%);
+  transform: translate(100%, 100%);
+}
+
+
+/* Slide 4 goes to the top right */
+
+#slide-4 {
+  background: red no-repeat center center;
+  background-size: cover;
+  -webkit-transform: translate(100%, 0%);
+  -ms-transform: translate(100%, 0%);
+  transform: translate(100%, 0%);
+}
+
+#slide-2 #footBox {
+  position: relative;
+  top: 100%;
+}
+
+.caption {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  text-align: right;
+  color: #fff;
+}
+
+p, h1 {
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 0.2em;
+}
+
+p {
+  line-height: 1.333em;
+}
+
+#slide-3 .caption {
+  left: 5%;
+  right: auto;
+  color: #47373f;
+}
+
+#slide-4 .caption {
+  right: auto;
+  left: 5%;
+  top: 5%;
+  bottom: auto;
+  color: #47373f;
+}
+
+#helper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 600%;
+  width: 0;
+}
+
+.marker {
+  height: 25%;
+  width: 100%;
+}
