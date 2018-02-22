@@ -14,12 +14,12 @@ document.write('\
     </ul>\
   <nav>\
     <div class="nav-wrapper">\
-      <a href="index.html" class="brand-logo" style="font-size: 26px;">&nbsp;AquaBot<br>\
+      <a href="index.html" class="brand-logo" style="font-size: 26px; text-decoration: none !important;">&nbsp;Aquabot<br>\
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>\
       <ul class="right hide-on-med-and-down">\
-        <li class="home"><a href="index.html">Home</a></li>\
-        <li class="us cont"><a class="dropdown-button" href="#!" data-activates="dropdown2">About Us<i class="material-icons right">arrow_drop_down</i></a></li>\
-        <li class="abot uses bene tech conc cost"><a class="dropdown-button" href="#!" data-activates="dropdown1">AquaBot<i class="material-icons right">arrow_drop_down</i></a></li>\
+        <li class="home"><a href="index.html" style="text-decoration: none !important; color: white;">Home</a></li>\
+        <li class="us cont"><a class="dropdown-button" href="#!" data-activates="dropdown2" style="text-decoration: none !important; color: white;">About Us<i class="material-icons right">arrow_drop_down</i></a></li>\
+        <li class="abot uses bene tech conc cost"><a class="dropdown-button" href="#!" data-activates="dropdown1" style="text-decoration: none !important; color: white;">Aquabot<i class="material-icons right">arrow_drop_down</i></a></li>\
       </ul>\
     </div>\
   </nav>\
@@ -42,7 +42,7 @@ document.write('\
       <li class="no-padding">\
         <ul class="collapsible collapsible-accordion">\
           <li>\
-            <a class="collapsible-header">AquaBot<i class="material-icons">arrow_drop_down</i></a>\
+            <a class="collapsible-header">Aquabot<i class="material-icons">arrow_drop_down</i></a>\
             <div class="collapsible-body">\
               <ul>\
               <li><a href="abot.html">About</a></li>\
@@ -62,5 +62,5 @@ document.write('\
 // <ul class="side-nav" id="mobile-demo">\
 //   <li class="home"><a href="index.html">Home</a></li>\
 //   <li><a class="dropdown-button" href="#!" data-activates="dropdown2">About Us<i class="material-icons right">arrow_drop_down</i></a></li>\
-//   <li><a class="dropdown-button" href="#!" data-activates="dropdown1">the AquaBot<i class="material-icons right">arrow_drop_down</i></a></li>\
+//   <li><a class="dropdown-button" href="#!" data-activates="dropdown1">the Aquabot<i class="material-icons right">arrow_drop_down</i></a></li>\
 // </ul>\
