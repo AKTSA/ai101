@@ -24,7 +24,7 @@ document.write('\
     </div>\
   </nav>\
 </div>\
-<ul id="mobile-demo" class="side-nav" style="text-decoration: none !important;">\
+<ul id="mobile-demo" class="side-nav">\
       <li><a href="index.html">Home</a></li>\
       <li class="no-padding">\
         <ul class="collapsible collapsible-accordion">\
