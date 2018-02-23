@@ -23,6 +23,97 @@
       position: relative;
       bottom: 10%;
     }
+    .timeline {
+  position: relative;
+}
+
+.timeline .timeline-event {
+  position: relative;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.timeline .timeline-event .timeline-content {
+  position: relative;
+  width: calc(50% - 50px);
+}
+
+.timeline .timeline-event::before {
+  display: block;
+  content: "";
+  width: 2px;
+  height: calc(50% - 30px);
+  position: absolute;
+  background: #d2d2d2;
+  left: calc(50% - 1px);
+  top: 0;
+}
+
+.timeline .timeline-event::after {
+  display: block;
+  content: "";
+  width: 2px;
+  height: calc(50% - 30px);
+  position: absolute;
+  background: #d2d2d2;
+  left: calc(50% - 1px);
+  top: calc(50% + 30px);
+}
+
+.timeline .timeline-event:first-child::before {
+  display: none;
+}
+
+.timeline .timeline-event:last-child::after {
+  display: none;
+}
+
+.timeline .timeline-event:nth-child(even) .timeline-content {
+  margin-left: calc(50% + 50px);
+}
+
+.timeline .timeline-event:nth-child(odd) .timeline-content {
+  margin-left: 0;
+}
+
+.timeline .timeline-badge {
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #d2d2d2;
+  top: calc(50% - 20px);
+  right: calc(50% - 20px);
+  border-radius: 50%;
+  text-align: center;
+  cursor: default;
+}
+
+.timeline .timeline-badge i {
+  font-size: 25px;
+  line-height: 40px;
+}
+
+@media (max-width: 600px) {
+  .timeline .timeline-event .timeline-content {
+    width: calc(100% - 70px);
+  }
+  .timeline .timeline-event::before {
+    left: 19px;
+  }
+  .timeline .timeline-event::after {
+    left: 19px;
+  }
+  .timeline .timeline-event:nth-child(even) .timeline-content {
+    margin-left: 70px;
+  }
+  .timeline .timeline-event:nth-child(odd) .timeline-content {
+    margin-left: 70px;
+  }
+  .timeline .timeline-badge {
+    left: 0;
+  }
+}
   </style>
 </head>
 
@@ -58,6 +149,44 @@
         </div>
       </div>
     </div>
+    
+    
+    <div class="Content" style="background-image: url('https://designshack.net/wp-content/uploads/best-poly-backgrounds.png');">
+    <div class="row" style=padding: 0;>
+      <div class="col s12 m12">
+        <div class="card horizontal">
+    <div class="container" style="margin: 5vh 5vw; width: 100%;">
+    <div class="timeline">
+      <div class="timeline-event">
+        <div class="card timeline-content">
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">2018</span>
+            <p>Aquabot became more affordable and was released for everyone on Janurary 15 2018.</p>
+          </div>
+        </div>
+        <div class="timeline-badge white black-text"><i class="material-icons">panorama_fish_eye</i></div>
+      </div>
+      <div class="timeline-event">
+        <div class="card timeline-content">
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">2018</span>
+            <p>Aquabot became more affordable and was released for everyone on Janurary 15 2018.</p>
+          </div>
+        </div>
+        <div class="timeline-badge white black-text"><i class="material-icons">panorama_fish_eye</i></div></div>
+      <div class="timeline-event">
+        <div class="card timeline-content">
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">2018</span>
+            <p>Aquabot became more affordable and was released for everyone on Janurary 15 2018.</p>
+          </div>
+        </div>
+        <div class="timeline-badge white black-text"><i class="material-icons">panorama_fish_eye</i></div> </div>
+    </div>
+    
+  </div></div></div></div>
+    
+    
     <div class="row">
       <div class="col s12 m12">
         <div class="card horizontal">
