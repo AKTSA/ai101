@@ -37,15 +37,15 @@
           <form class="col m12 s12">
             <div class="row">
               <div class="input-field col s12">
-                <input id="name 0" type="text">
+                <input id="name" class="name validate" required="" type="text">
                 <label for="name">Name</label>
               </div>
               <div class="input-field col s12">
-                <input id="email 1" type="email" class="form-input">
+                <input id="email" class="email validate form-input" required="" type="email">
                 <label for="email">Email</label>
               </div>
               <div class="input-field col s12">
-                <textarea id="message 2" class="materialize-textarea"></textarea>
+                <textarea id="message" class="message materialize-textarea validate" required></textarea>
                 <label for="message">Message</label>
               </div>
             </div>
@@ -53,7 +53,7 @@
             <div class="divider"></div>
             <div class="row">
               <div class="col m12">
-                <p class="right-align"><button class="btn btn-large waves-effect waves-light" type="button" name="action" onclick="send();">Send</button></p>
+                <p class="right-align"><button  id="submit" class="btn btn-large waves-effect waves-light" type="button" name="action" onclick="send();">Send</button></p>
               </div>
             </div>
           </form>
@@ -83,8 +83,14 @@
   </script>
   <script>
     function send() {
-      document.getElementById('form').style.display = "none";
+      if(document.getElementById('name').checkValidity()
+      && document.getElementById('email').checkValidity()
+      && document.getElementById('message').checkValidity()) {
+        document.getElementById('form').style.display = "none";
       document.getElementById('Thank').style.display = "block";
+
+      }
+
     }
   </script>
 </body>
