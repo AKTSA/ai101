@@ -14,6 +14,11 @@
   <meta name="description" content="About the Aquabot">
   <meta name="author" content="Agnim Agarwal">
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="/JSDep/ideal-image-slider.css">
+  <link rel="stylesheet" href="/JSDep/ideal-default.css">
+
+  <script src="/JSDep/ideal-image-slider.js"></script>
+  <script src="/JSDep/ideal-captions.js"></script>
   <style>
     .uk-slideshow-items img {
       height: 80% !important;
@@ -138,7 +143,7 @@
       <div class="col s12 m12">
         <div class="card horizontal">
           <div class="card-image">
-            <img src="images/1.PNG">
+            <img src="images/1.png">
           </div>
           <div class="card-stacked">
             <div class="card-content">
@@ -161,8 +166,8 @@
             <div class="timeline">
               <div class="timeline-event">
                 <div class="card timeline-content">
-                  <div class="card-content">
-                    <span class="card-title activator white-text text-darken-4">2018</span>
+                  <div class="card-content blue lighten-5">
+                    <span class="card-title activator grey-text text-darken-4">2018</span>
                     <p>Aquabot became more affordable and was released for everyone on Janurary 15 2018.</p>
                   </div>
                 </div>
@@ -170,7 +175,7 @@
               </div>
               <div class="timeline-event">
                 <div class="card timeline-content">
-                  <div class="card-content">
+                  <div class="card-content blue lighten-5">
                     <span class="card-title activator grey-text text-darken-4">2016</span>
                     <p>Aquabot was used for research and medical purposes. It was still undergoing testing at the time.</p>
                   </div>
@@ -179,7 +184,7 @@
               </div>
               <div class="timeline-event">
                 <div class="card timeline-content">
-                  <div class="card-content">
+                  <div class="card-content blue lighten-5">
                     <span class="card-title activator grey-text text-darken-4">2015</span>
                     <p>As more and more technologies came up. The Aquabot team started to incorporate those technologies into the robot.</p>
                   </div>
@@ -188,7 +193,7 @@
               </div>
               <div class="timeline-event">
                 <div class="card timeline-content">
-                  <div class="card-content">
+                  <div class="card-content blue lighten-5">
                     <span class="card-title activator grey-text text-darken-4">2014</span>
                     <p>The very first Prototype came out and was shown at the Aquabot Technologies keynote.</p>
                   </div>
@@ -197,7 +202,7 @@
               </div>
               <div class="timeline-event">
                 <div class="card timeline-content">
-                  <div class="card-content">
+                  <div class="card-content blue lighten-5">
                     <span class="card-title activator grey-text text-darken-4">2012</span>
                     <p>The Aquabot Team for Aquabot Technologies started to make a design and came up with the features and technologies to use.</p>
                   </div>
@@ -206,7 +211,7 @@
               </div>
               <div class="timeline-event">
                 <div class="card timeline-content">
-                  <div class="card-content">
+                  <div class="card-content blue lighten-5">
                     <span class="card-title activator grey-text text-darken-4">2010</span>
                     <p>Aquabot Technologies came up with an idea to help water activites and research.</p>
                   </div>
@@ -228,35 +233,13 @@
             <div class="card-content">
               <span class="card-title">Technologies</span>
               <p>The Aquabot uses all the latest technologies pertaining to Artificial Intelligence. See our slideshow below for more information.</p>
-              <div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="animation: fade; autoplay: true">
-                <ul class="uk-slideshow-items">
-                  <li>
-                    <img src="http://tomtunguz.com/images/ml_icons.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                      <h2 class="uk-margin-remove">Machine Learning</h2>
-                      <p class="uk-margin-remove">With data Aquabot analyzes. Our Machine Learning technologies come up with intelligent predictions and suggestions.</p>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="http://irisbooth.com/wp-content/uploads/2017/05/tech2.jpg" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                      <h2 class="uk-margin-remove">Deep Learning</h2>
-                      <p class="uk-margin-remove">Aquabot is able to classify different aqua creatures with Aquabot Technologies intelligent deep learning system.</p>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="" uk-cover>
-                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
-                      <h2 class="uk-margin-remove">Internet of Things</h2>
-                      <p class="uk-margin-remove">Be able to get data from aquabot and display it on your device.</p>
-                    </div>
-                  </li>
-                </ul>
-
-                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-
+              <br>
+              <div id="slider">
+                <img src="http://tomtunguz.com/images/ml_icons.jpg" alt="With data Aquabot analyzes. Our Machine Learning technologies come up with intelligent predictions and suggestions." style="height: 50vh; !important">
+                <img src="http://irisbooth.com/wp-content/uploads/2017/05/tech2.jpg" alt="Aquabot is able to classify different aqua creatures with Aquabot Technologies intelligent deep learning system." style="height: 50vh; !important">
+                <img src="https://images.pexels.com/photos/159304/network-cable-ethernet-computer-159304.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Be able to get data from aquabot and display it on your device." style="height: 50vh; !important">
               </div>
+              <br>
             </div>
           </div>
         </div>
@@ -318,6 +301,14 @@
         hover: true
       });
     });
+  </script>
+  <script>
+    var slider = new IdealImageSlider.Slider({
+      selector: '#slider',
+      height: 400
+    });
+    slider.addCaptions();
+    slider.start();
   </script>
 </body>
 

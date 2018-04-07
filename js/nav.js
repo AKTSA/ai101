@@ -17,7 +17,8 @@ document.write('\
       <a href="index.html" class="brand-logo" style="font-size: 26px; text-decoration: none !important;">&nbsp;Aquabot<br>\
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>\
       <ul class="right hide-on-med-and-down">\
-        <li class="home"><a href="index.html" style="text-decoration: none !important; color: white;">Home</a></li>\
+        <li class=""><a href="http://aktsa.org" style="text-decoration: none !important; color: white;">AK TSA</a></li>\
+        <li class=""><a href="http://aktsa.org/cte.html" style="text-decoration: none !important; color: white;">AK CTE</a></li>\
         <li class="us cont"><a class="dropdown-button" href="#!" data-activates="dropdown2" style="text-decoration: none !important; color: white;">About Us<i class="material-icons right">arrow_drop_down</i></a></li>\
         <li class="abot uses bene tech conc cost"><a class="dropdown-button" href="#!" data-activates="dropdown1" style="text-decoration: none !important; color: white;">Aquabot<i class="material-icons right">arrow_drop_down</i></a></li>\
       </ul>\
@@ -56,6 +57,7 @@ document.write('\
           </li>\
         </ul>\
     </li>\
+    <li>\
 </ul>');
 
 //Side Nav code - update to collapsible

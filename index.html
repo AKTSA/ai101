@@ -1,128 +1,169 @@
+<!DOCTYPE html>
 <html>
-<head>
-  <title>The Aquabot - A Revolutionary Approach to Underwater Activity</title>
 
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <link rel="stylesheet" href="css/uni.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Aquabot - A Revolutionary Approach to Underwater Activity">
-  <meta name="author" content="Agnim Agarwal">
-  <meta charset="UTF-8">
+<head>
+	<title>The Aquabot - A Revolutionary Approach to Underwater Activity</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/new.css" />
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+	<script src="JSDep/noframework.waypoints.min.js"></script>
+	<script src="JSDep/smooth-scroll.js"></script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Aquabot - A Revolutionary Approach to Underwater Activity">
+	<meta name="author" content="Agnim Agarwal">
+	<meta charset="UTF-8">
+
 </head>
 
 <body>
-  <script src="js/nav.js"></script>
-  <div class="Hero HomeHero">
-    <div class="Text Title" style="top: 0;">
-      <h1>Aquabot - A Revolutionary Approach to Underwater Activity</h1>
-    </div>
-  </div>
-  <div class="Spacer"></div>
+	<script src="js/nav.js"></script>
+	<nav id="LocalNav">
+		<ul>
+			<li>
+				<input id="SB1" type="radio" name="SideBar" onclick="smoothScroll.animateScroll(null, '#AboutHeroFrame', {speed: 1000, easing: 'easeInOutCubic', updateURL: false, offset:100});" />
+				<label for="SB1"></label>
+				<div>About</div>
+			</li>
+			<li>
+				<input id="SB2" type="radio" name="SideBar" onclick="smoothScroll.animateScroll(null, '#ProjectsHeroFrame', {speed: 1000, easing: 'easeInOutCubic', updateURL: false, offset:100});" />
+				<label for="SB2"></label>
+				<div>Projects</div>
+			</li>
+		</ul>
+	</nav>
 
+	<div id="BigPanelWrapperParent">
+		<span id="BigPanelWrapper">
+          <div class="Text Title" style="top: 30vh; text-align: center;">
+            <h1 style="font-size: 90%;">Aquabot - A Revolutionary Approach to Underwater Activity</h1>
+          </div>
+        </span>
+	</div>
+	<div id="AboutHeroFrame">
+	</div>
 
-  <!--  ============================ CONTENT STARTS HERE ==============================-->
+	<section id="AboutFrame">
+		<div>
+			<p>
+				Human Beings have explored a mere 5% of our world's oceans. Over 500 people have journeyed into space and a dozen have walked on the surface of the moon, while only three humans have explored the deepest known point of the ocean. While space may hold
+				an abundance of unheard life forms, there is a vast scope for marine discovery in our own oceans. Why not provide a more advanced technology to assist with this limitless field of research?
+			</p>
+		</div>
+	</section>
 
+	<div id="ProjectsHeroFrame">
+		<h1>Introducing the Aquabot</h1>
+	</div>
 
-  <div class="Content" style="background: #212121">
-    <!--<img class="HomeBack" src="https://i.pinimg.com/originals/e9/ff/3b/e9ff3b027eb4491a1dcbaf2489b904eb.jpg">-->
-    <div class="row">
-      <div class="col s12 m12">
-        <div class="card horizontal">
-          <div class="card-image">
-            <img src="https://i.ytimg.com/vi/LHztxDilcBg/maxresdefault.jpg">
-          </div>
-          <div class="card-stacked">
-            <div class="card-content">
-              <span class="card-title">Underwater Research</span>
-              <p>Human Beings have explored a mere 5% of our world's oceans. Over 500 people have journeyed into space and a dozen have walked on the surface of the moon, while only three humans have explored the deepest known point of the ocean. While space
-                may hold an abundance of unheard life forms, there is a vast scope for marine discovery in our own oceans. Why not provide a more advanced technology to assist with this limitless field of research?</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m12">
-        <div class="card horizontal">
-          <div class="card-stacked">
-            <div class="card-content">
-              <span class="card-title">Introducing the Aquabot</span>
-              <p>The Aquabot is the world's most advanced technology in the field of underwater activity. With applications ranging from marine life research to recreational activity, the Aquabot can benefit anyone. For more information on the Aquabot, see
-                its about page <a href="abot.html">here</a>.</p>
-            </div>
-          </div>
-          <div class="card-image" style="width: 33%">
-            <img src="images/Robot1.PNG">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m12">
-        <div class="card horizontal">
-          <div class="card-image">
-            <img src="https://s3.amazonaws.com/files.cnas.org/title/AI-Hero.jpg?mtime=20170725094403g">
-          </div>
-          <div class="card-stacked">
-            <div class="card-content">
-              <span class="card-title">Benefits of the Aquabot</span>
-              <p>With such a wide target group, the Aquabot has numerous benefits applicable to anyone. From aiding marine life researchers to lifeguarding for public pools and beaches, the Aquabot can enhance even everyday activities. For more information, see the benefits page <a href="bene.html">here</a>.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m12">
-        <div class="card horizontal">
-          <div class="card-stacked">
-            <div class="card-content">
-              <span class="card-title">Pricing Details</span>
-              <p>Interested in purchasing the Aquabot? See the cost page <a href="cost.html">here</a> for more information. If you would like a more personalized plan suitable for your business or consumer needs, fill out our <a href="cont.html">contact form</a> and we will get back to you within 24 hours.</p>
-            </div>
-          </div>
-          <div class="card-image">
-            <img src="https://ksr-ugc.imgix.net/assets/016/409/373/5400a798521bcf1bb18f1b5af0853aae_original.jpg?crop=faces&w=1552&h=873&fit=crop&v=1493216916&auto=format&q=92&s=cb442d870b7b047357e92fa7a7119683">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m12">
-        <div class="card horizontal">
-          <div class="card-image">
-            <img src="http://www.capableteamproductions.com/images/abt-img.png">
-            </div>
-          <div class="card-stacked">
-              <div class="card-content">
-                <span class="card-title">Who are We?</span>
-                <p>We are a group of software developers looking to make a difference in the world. Founded in 2010, our company, Aquabot Technologies, has grown to serve 1 million customers worldwide through our website alone. We would love to receive assistance regarding advertising and manufacturing costs. If you would like to reach us, please contact us <a href="cont.html">here</a>. To learn more about our company, see our about us page <a href="us.html">here</a>.</p>
-              </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
+	<section id="ProjectsFrame">
+		<img class="Projectb ProjLimg" src="images/Robot1.PNG" alt="VEX Robotics" style="height: 82.5%">
+		<!--<img class="Projectba HoverOp ProjLimg" src="/images/IMG_20150322_160628.jpg" alt="" />-->
+		<div class="Projecta ProjL" id="Project1a">
+			<div>
+				<h2></h2>
+				<p>The Aquabot is the world's most advanced technology in the field of underwater activity. With applications ranging from marine life research to recreational activity, the Aquabot can benefit anyone. For more information on the Aquabot, see its about
+					page <a href="abot.html">here</a>.</p>
+			</div>
+		</div>
 
+		<img class="Projectb ProjRimg" src="https://s3.amazonaws.com/files.cnas.org/title/AI-Hero.jpg?mtime=20170725094403g" alt="Fashion Design" />
+		<!--<img class="Projectba HoverOp ProjRimg" src="/images/fdesign1.jpg" alt="" />-->
+		<div id="Project2a" class="Projecta ProjR">
+			<div>
+				<h2>Benefits of the Aquabot</h2>
+				<p>With such a wide target group, the Aquabot has numerous benefits applicable to anyone. From aiding marine life researchers to lifeguarding for public pools and beaches, the Aquabot can enhance even everyday activities. For more information, see the
+					benefits page <a href="bene.html">here</a>.</p>
+			</div>
+		</div>
 
+		<img class="Projectb ProjLimg" src="https://ksr-ugc.imgix.net/assets/016/409/373/5400a798521bcf1bb18f1b5af0853aae_original.jpg?crop=faces&w=1552&h=873&fit=crop&v=1493216916&auto=format&q=92&s=cb442d870b7b047357e92fa7a7119683">
+		<!--<img class="Projectba HoverOp ProjLimg" src="/images/Clean.png" alt="" />-->
+		<div class="Projecta ProjL" id="Project3a">
+			<div>
+				<h2>Pricing Details</h2>
+				<p>Interested in purchasing the Aquabot? See the cost page <a href="cost.html">here</a> for more information. If you would like a more personalized plan suitable for your business or consumer needs, fill out our <a href="cont.html">contact form</a> and
+					we will get back to you within 24 hours.</p>
+			</div>
+		</div>
+	</section>
 
+	<div id="footBox"></div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// $("#navBox").load("nav.html");
+			$("#footBox").load("footer.html");
+			$(".button-collapse").sideNav();
+			$(".home").addClass("active");
+			$(".dropdown-button").dropdown({
+				hover: true
+			});
+		});
+	</script>
 
-  <!-- ===================================================== -->
-  <div id="footBox"></div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-  <script>
-    $(document).ready(function() {
-      // $("#navBox").load("nav.html");
-      $("#footBox").load("footer.html");
-      $(".button-collapse").sideNav();
-      $(".home").addClass("active");
-      $(".dropdown-button").dropdown({
-        hover: true
-      });
-    });
-  </script>
+	<script>
+		smoothScroll.init();
+		var waypoint2 = new Waypoint({
+			element: document.getElementById('AboutFrame'),
+			handler: function(direction) {
+				document.getElementById("AboutFrame").getElementsByTagName("DIV")[0].style.left = "0";
+			},
+			offset: '30%'
+		});
+		var waypoint3 = new Waypoint({
+			element: document.getElementById('Project1a'),
+			handler: function(direction) {
+				document.getElementById("Project1a").style.left = "50vw";
+			},
+			offset: '60%'
+		});
+		var waypoint4 = new Waypoint({
+			element: document.getElementById('Project2a'),
+			handler: function(direction) {
+				document.getElementById("Project2a").style.left = "10vw";
+			},
+			offset: '60%'
+		});
+		var waypoint5 = new Waypoint({
+			element: document.getElementById('Project3a'),
+			handler: function(direction) {
+				document.getElementById("Project3a").style.left = "50vw";
+			},
+			offset: '60%'
+		});
+
+		//--------------------
+		//NAVIGATION WAYPOINTS
+		//--------------------
+		var waypointnav1 = new Waypoint({
+			element: document.getElementById('AboutHeroFrame'),
+			handler: function(direction) {
+				if (direction == "down") {
+					document.getElementById("SB1").checked = true;
+				} else {
+					document.getElementById("SB1").checked = false;
+				}
+			},
+			offset: '30%'
+		});
+		var waypointnav2 = new Waypoint({
+			element: document.getElementById('ProjectsHeroFrame'),
+			handler: function(direction) {
+				if (direction == "down") {
+					document.getElementById("SB2").checked = true;
+				} else {
+					document.getElementById("SB1").checked = true;
+				}
+			},
+			offset: '50%'
+		});
+
+	</script>
 </body>
 
 </html>
