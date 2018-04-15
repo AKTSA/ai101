@@ -16,9 +16,20 @@
     .content {
       padding: 1em !important;
     }
+    .card {
+      width: 20vw !important;
+    }
     a:hover {
       text-decoration: none !important;
       /* color: black !important; */
+    }
+    @media screen and (max-device-width: 640px){
+      .card {
+        width: 90vw !important;
+      }
+      table {
+        font-size: 13px;
+      }
     }
   </style>
 </head>
@@ -37,7 +48,7 @@
 
   <!--  ============================ CONTENT STARTS HERE ==============================-->
 
-  <div class="Content" style="padding: 10vh 1vw !important;">
+  <div class="Content" style="padding: 10vh 5vw !important;">
 
 
     <div class="ui special centered cards wow fadeIn" style="width: 100%;">
@@ -140,6 +151,99 @@
     <br />
     <br />
     <br />
+    <h5><center>Compare Products</center></h5>
+
+    <table>
+      <thead>
+        <tr>
+          <th></th>
+          <th>Package 1</th>
+          <th>Package 2</th>
+          <th>Package 3</th>
+          <th>Package 4</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>RAM</td>
+          <td>32gb</td>
+          <td>64gb</td>
+          <td>32gb</td>
+          <td>128gb</td>
+        </tr>
+        <tr>
+          <td>Process Speed</td>
+          <td>5.2GHz</td>
+          <td>6.4GHz</td>
+          <td>5.2GHz</td>
+          <td>7.1GHz</td>
+        </tr>
+        <tr>
+          <td>Hard Drive</td>
+          <td>5TB</td>
+          <td>6TB</td>
+          <td>6TB</td>
+          <td>8TB</td>
+        </tr>
+        <tr>
+          <td>SSD</td>
+          <td>3TB</td>
+          <td>4TB</td>
+          <td>3TB</td>
+          <td>5TB</td>
+        </tr>
+        <tr>
+          <td>Display</td>
+          <td>11in</td>
+          <td>11in</td>
+          <td>11in</td>
+          <td>13in</td>
+        </tr>
+        <tr>
+          <td>Camera</td>
+          <td>30MP</td>
+          <td>35MP</td>
+          <td>30MP</td>
+          <td>40MP</td>
+        </tr>
+        <tr>
+          <td>Weight</td>
+          <td>75lb</td>
+          <td>65lb</td>
+          <td>75lb</td>
+          <td>60lb</td>
+        </tr>
+        <tr>
+          <td>Max Speed</td>
+          <td>20mph</td>
+          <td>25mph</td>
+          <td>20mph</td>
+          <td>30mph</td>
+        </tr>
+        <tr>
+          <td>Battery Life</td>
+          <td>9 hours</td>
+          <td>10 hours</td>
+          <td>9 hours</td>
+          <td>12 hours</td>
+        </tr>
+        <tr>
+          <td>Max Water Depth</td>
+          <td>15 miles</td>
+          <td>15 miles</td>
+          <td>15 miles</td>
+          <td>20 miles</td>
+        </tr>
+        <tr>
+          <td>Max Distance</td>
+          <td>20 miles</td>
+          <td>20 miles</td>
+          <td>20 miles</td>
+          <td>30 miles</td>
+        </tr>
+      </tbody>
+    </table>
 
     <script type="text/javascript">
       $('.special.cards .image').dimmer({
@@ -154,7 +258,7 @@
     </script>
 
   </div>
-
+  <div id="footBox"></div>
 
 
 

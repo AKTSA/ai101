@@ -13,7 +13,7 @@ html, body {
 }
 a {
   color: white;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 h2 {
   font-size: 200%;
@@ -75,7 +75,7 @@ footer {
 
 .AK {
   font-family: "Audiowide", sans-serif;
-  text-decoration: underline;
+  text-decoration: underline !important;
   color: #7A52CC !important;
 }
 
@@ -712,7 +712,7 @@ header {
 
 #AboutFrame {
   padding: 25vh 10vh;
-  background-image: url('https://i.ytimg.com/vi/LHztxDilcBg/maxresdefault.jpg');
+  background-image: url('https://images.pexels.com/photos/312105/pexels-photo-312105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -1017,7 +1017,7 @@ header {
 }
 
 #EndFrame a {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: black !important;
 }
 

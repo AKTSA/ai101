@@ -1,14 +1,44 @@
 <html>
+
 <head>
   <title>Concerns</title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.33/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.33/js/uikit-icons.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.33/css/uikit.min.css" />
   <link rel="stylesheet" href="css/uni.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Concerns of the Aquabot">
-  <meta name="author" content="Agnim Agarwal">
+  <meta name="description" content="Aquabot Concerns">
+  <meta name="author" content="AKTSA Webmasters">
   <meta charset="UTF-8">
+  <style>
+    .uk-card-body {
+      color: black;
+    }
+
+    img {
+      height: 50vh !important;
+    }
+
+    .uk-card {
+      height: 90vh !important;
+    }
+    h4 {
+      margin-top: 0 !important;
+    }
+    @media screen and (max-device-width: 640px){
+      .uk-card {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+    }
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Gugi');
+  </style>
 </head>
+
 <body>
   <!-- <div id="navBox"></div> -->
   <script src="js/nav.js"></script>
@@ -21,93 +51,190 @@
   </div>
 
 
-<!--  ============================ CONTENT STARTS HERE ==============================-->
+  <!--  ============================ CONTENT STARTS HERE ==============================-->
 
-<div class="Content" style="">
-  <div class="row">
-    <div class="col s12 m12">
-      <div class="card horizontal">
-        <div class="card-image">
-          <img src="http://www.symondrake.com/wordpress/wp-content/uploads/2015/02/deepwater.png">
+
+
+
+  <div id="main" style="background-color: #2ECC71;">
+
+
+
+    <br />
+    <br />
+
+    <h1 style="color: white; font-size: 40px; font-family: 'Gugi', cursive;"><center>Concerns</center></h1>
+
+
+    <br />
+
+    <div class="uk-child-width-1-2@m wow fadeInUp" uk-grid>
+      <div>
+        <div class="uk-card uk-card-hover uk-card-default" id="contentbox" style="margin-left: 20px;">
+          <!-- <div class="uk-card-media-top"> -->
+            <img src="http://www.symondrake.com/wordpress/wp-content/uploads/2015/02/deepwater.png" id="contentimg" alt="">
+          <!-- </div> -->
+          <div class="uk-card-body">
+            <h1 class="uk-card-title">Deep Water Malfunction</h1>
+            <h4>Always be cautious when controling the Aquabot and make sure you know how deep you're sending it underwater.</h4>
+          </div>
         </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <span class="card-title">Deep Water Malfunction</span>
-            <p>Always be cautious when controling the Aquabot and make sure you know how deep you're sending it underwater.</p>
+      </div>
+      <div>
+        <div class="uk-card uk-card-hover uk-card-default" id="contentbox" style="margin-right: 20px;">
+          <!-- <div class="uk-card-media-top"> -->
+            <img src="https://lh5.googleusercontent.com/zQFKm9k_k2cj-dP3xDYz5iw6f3rGZcbdLUL4D5XZ_8FxRt2EgckZebnfkFytceWIRXnFIH_33_KwYEjKQQvMgYqAQMn2snsuRrElLVqtPJDA8PEljnBeRPlP8_zmotq5ZF2YitM" id="contentimg" alt="">
+          <!-- </div> -->
+          <div class="uk-card-body">
+            <h1 class="uk-card-title">Sensor Malfunction</h1>
+            <h4>Be mindful of your robot's capabilities and make sure to go over the hardware diagnostics. When you're sending your robot underwater, make sure there is a sufficent amount of energy.</h4>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col s12 m12">
-      <div class="card horizontal">
-        <div class="card-stacked">
-          <div class="card-content">
-            <span class="card-title">Sensor Malfunction</span>
-            <p>Always be cautious when controling the Aquabot and make sure you know how deep you're sending it underwater.</p>
-          </div>
-        </div>
-        <div class="card-image">
-          <img src="https://lh5.googleusercontent.com/zQFKm9k_k2cj-dP3xDYz5iw6f3rGZcbdLUL4D5XZ_8FxRt2EgckZebnfkFytceWIRXnFIH_33_KwYEjKQQvMgYqAQMn2snsuRrElLVqtPJDA8PEljnBeRPlP8_zmotq5ZF2YitM">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s12 m12">
-      <div class="card horizontal">
-        <div class="card-image">
-          <img src="https://inhabitat.com/wp-content/blogs.dir/1/files/2014/06/power-storing-wires-lead.jpg">
-        </div>
-        <div class="card-stacked">
-          <div class="card-content">
-            <span class="card-title">Wire Disconnection</span>
-            <p>Always be cautious when controling the Aquabot and make sure you know how deep you're sending it underwater.</p>
+
+    <br />
+    <br />
+    <br />
+
+    <div class="uk-child-width-1-2@m wow fadeInUp" uk-grid>
+      <div>
+        <div class="uk-card uk-card-hover uk-card-default" style="margin-left: 20px;" id="contentbox">
+          <!-- <div class="uk-card-media-top"> -->
+            <img src="https://inhabitat.com/wp-content/blogs.dir/1/files/2014/06/power-storing-wires-lead.jpg" id="contentimg" alt="">
+          <!-- </div> -->
+          <div class="uk-card-body">
+            <h1 class="uk-card-title">Wire Disconnection</h1>
+            <h4>Remmember to check if the wires are all connected. Loose connections could lead to a failure.</h4>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s12 m12">
-      <div class="card horizontal">
-        <div class="card-stacked">
-          <div class="card-content">
-            <span class="card-title">Location Disconnection</span>
-            <p>Always be cautious when controling the Aquabot and make sure you know how deep you're sending it underwater.</p>
+      <div>
+        <div class="uk-card uk-card-hover uk-card-default" style="margin-right: 20px;" id="contentbox">
+          <!-- <div class="uk-card-media-top"> -->
+            <img src="https://images.pexels.com/photos/240834/pexels-photo-240834.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" id="contentimg" alt="">
+          <!-- </div> -->
+          <div class="uk-card-body">
+            <h1 class="uk-card-title">Location Disconnection</h1>
+            <h4>There could be a problem with the location of the Aquabot. Take precautions when sending the robot underwater.</h4>
           </div>
-        </div>
-        <div class="card-image">
-          <img src="https://cdn.dribbble.com/users/331539/screenshots/1656547/location.gif">
         </div>
       </div>
     </div>
+
+    <br />
+    <br />
+
   </div>
 
 
+  <div id="main2" style="background-color: #5DADE2;">
 
-</div>
+    <br />
+    <br />
+
+    <h1 style="color: white; font-size: 40px; font-family: 'Gugi', cursive;"><center>Safety</center></h1>
+
+
+    <br />
+
+    <div class="uk-child-width-1-2@m wow fadeInUp" uk-grid>
+      <div>
+        <div class="uk-card uk-card-hover uk-card-default" style="margin-left: 20px;" id="contentbox">
+          <!-- <div class="uk-card-media-top"> -->
+            <img src="http://www.gracelinks.org/library/resizer.php?src=/images/hor_6704.jpg&w=600&h=300&zc=1&q=100" id="contentimg" alt="">
+          <!-- </div> -->
+          <div class="uk-card-body">
+            <h1 class="uk-card-title">Battery Safety</h1>
+            <h4>Checking the aquabot battery is a must. A bad battery could cause a wildlife disaster underwater.</h4>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-card-hover uk-card-default" style="margin-right: 20px;" id="contentbox">
+          <!-- <div class="uk-card-media-top"> -->
+            <img src="https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/175820.jpg" id="contentimg" alt="">
+          <!-- </div> -->
+          <div class="uk-card-body">
+            <h1 class="uk-card-title">Wildlife Interaction</h1>
+            <h4>Sometimes things malfunction and don't go as planned. Interactions between the aquabot and wildlife may not go well. In some cases it could harm the wildlife.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <br />
+    <br />
+
+  </div>
+
+  <div id="main2" style="background-color: #148F77;">
+
+    <br />
+    <br />
+
+    <h1 style="color: white; font-size: 40px; font-family: 'Gugi', cursive;"><center>Liabilities</center></h1>
+
+
+    <br />
+
+
+    <div class="uk-child-width-1-2@m wow fadeInUp" uk-grid>
+      <div>
+        <div class="uk-card uk-card-hover uk-card-default" style="margin-left: 20px;" id="contentbox">
+          <!-- <div class="uk-card-media-top"> -->
+            <center><img src="https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""></center>
+          <!-- </div> -->
+          <div class="uk-card-body">
+            <h1 class="uk-card-title">Warranty</h1>
+            <h4>If something was to happen to the robot without previous damage then we will take care of it. Malfunctions will be applicable to the warranty. This is a lifetime warranty.</h4>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="uk-card uk-card-hover uk-card-default" style="margin-right: 20px;" id="contentbox">
+          <!-- <div class="uk-card-media-top"> -->
+            <img src="http://www.embex-engineering.com/fileadmin/redaktion/Bilder/Hardware/Hardware_Uebersicht_01.jpg" id="contentimg" alt="">
+          <!-- </div> -->
+          <div class="uk-card-body">
+            <h1 class="uk-card-title">Aquabot Damage</h1>
+            <h4>Not using the aquabot properly will lead to expenditure toward new parts. Be careful while using the aquabot.</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <br />
+    <br />
+
+  </div>
+  <div id="footBox"></div>
 
 
 
 
-<!-- ============================================================================== -->
 
 
-<!-- <div id="footBox"></div> -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script>
-  $(document).ready(function() {
-    // $("#navBox").load("nav.html");
-    $("#footBox").load("footer.html");
-    $(".conc").addClass("active");
-    $(".button-collapse").sideNav();
-    $(".dropdown-button").dropdown({
-      hover: true
+
+  <!-- ============================================================================== -->
+
+
+  <!-- <div id="footBox"></div> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // $("#navBox").load("nav.html");
+      $("#footBox").load("footer.html");
+      $(".conc").addClass("active");
+      $(".button-collapse").sideNav();
+      $(".dropdown-button").dropdown({
+        hover: true
+      });
     });
-  });
-</script>
+  </script>
 </body>
+
 </html>

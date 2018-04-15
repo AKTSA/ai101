@@ -2,6 +2,7 @@ document.write('\
 <div class="navbar-fixed">\
   <ul id="dropdown1" class="dropdown-content">\
         <li class="abot"><a href="abot.html">About</a></li>\
+        <li class="model"><a href="model.html">3D Model</a></li>\
         <li class="uses"><a href="uses.html">Potential Uses</a></li>\
         <li class="bene"><a href="bene.html">Benefits</a></li>\
         <li class="tech"><a href="tech.html">Available Technologies</a></li>\
@@ -27,6 +28,8 @@ document.write('\
 </div>\
 <ul id="mobile-demo" class="side-nav">\
       <li><a href="index.html">Home</a></li>\
+      <li class=""><a href="http://aktsa.org" >AK TSA</a></li>\
+      <li class=""><a href="http://aktsa.org/cte.html" ">AK CTE</a></li>\
       <li class="no-padding">\
         <ul class="collapsible collapsible-accordion">\
           <li>\
@@ -47,6 +50,7 @@ document.write('\
             <div class="collapsible-body">\
               <ul>\
               <li><a href="abot.html">About</a></li>\
+              <li><a href="model.html">3D Model</a></li>\
               <li><a href="uses.html">Potential Uses</a></li>\
               <li><a href="bene.html">Benefits</a></li>\
               <li><a href="tech.html">Available Technologies</a></li>\

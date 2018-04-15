@@ -1,0 +1,170 @@
+<html>
+
+<head>
+  <title>3D Model</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.33/js/uikit.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.33/js/uikit-icons.min.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.33/css/uikit.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="css/uni.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="3D Model">
+  <meta name="author" content="Agnim Agarwal">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/JSDep/ideal-image-slider.css">
+  <link rel="stylesheet" href="/JSDep/ideal-default.css">
+
+  <script src="/JSDep/ideal-image-slider.js"></script>
+  <script src="/JSDep/ideal-captions.js"></script>
+  <style>
+    .uk-slideshow-items img {
+      height: 80% !important;
+    }
+
+    .uk-overlay {
+      height: 20%;
+      position: relative;
+      bottom: 10%;
+    }
+
+    .timeline {
+      position: relative;
+    }
+
+    .timeline .timeline-event {
+      position: relative;
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+
+    .timeline .timeline-event .timeline-content {
+      position: relative;
+      width: calc(50% - 50px);
+    }
+
+    .timeline .timeline-event::before {
+      display: block;
+      content: "";
+      width: 2px;
+      height: calc(50% - 30px);
+      position: absolute;
+      background: #d2d2d2;
+      left: calc(50% - 1px);
+      top: 0;
+    }
+
+    .timeline .timeline-event::after {
+      display: block;
+      content: "";
+      width: 2px;
+      height: calc(50% - 30px);
+      position: absolute;
+      background: #d2d2d2;
+      left: calc(50% - 1px);
+      top: calc(50% + 30px);
+    }
+
+    .timeline .timeline-event:first-child::before {
+      display: none;
+    }
+
+    .timeline .timeline-event:last-child::after {
+      display: none;
+    }
+
+    .timeline .timeline-event:nth-child(even) .timeline-content {
+      margin-left: calc(50% + 50px);
+    }
+
+    .timeline .timeline-event:nth-child(odd) .timeline-content {
+      margin-left: 0;
+    }
+
+    .timeline .timeline-badge {
+      display: block;
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background: #d2d2d2;
+      top: calc(50% - 20px);
+      right: calc(50% - 20px);
+      border-radius: 50%;
+      text-align: center;
+      cursor: default;
+    }
+
+    .timeline .timeline-badge i {
+      font-size: 25px;
+      line-height: 40px;
+    }
+
+    @media (max-width: 600px) {
+      .timeline .timeline-event .timeline-content {
+        width: calc(100% - 70px);
+      }
+      .timeline .timeline-event::before {
+        left: 19px;
+      }
+      .timeline .timeline-event::after {
+        left: 19px;
+      }
+      .timeline .timeline-event:nth-child(even) .timeline-content {
+        margin-left: 70px;
+      }
+      .timeline .timeline-event:nth-child(odd) .timeline-content {
+        margin-left: 70px;
+      }
+      .timeline .timeline-badge {
+        left: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- <div id="navBox"></div> -->
+  <script src="js/nav.js"></script>
+  <div class="Hero AbotHero" style="background-image: url('https://i.pinimg.com/originals/e4/c5/51/e4c5510d36bd9827c80b2fb0993dd373.jpg'); background-size: 100vw 100%;">
+    <div class="Text Title">
+      <h1>3D Model</h1>
+    </div>
+  </div>
+  <div class="Spacer">
+  </div>
+
+
+  <!--  ============================ CONTENT STARTS HERE ==============================-->
+
+  <div class="Content" style="background: #212121">
+    <br>
+    <iframe style="height: 100%; width: 100%" src="https://gmail124109.autodesk360.com/shares/public/SHabee1QT1a327cf2b7ad82383857471079c?mode=embed" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+
+
+  </div>
+
+
+
+
+  <!-- ============================================================================== -->
+
+
+  <div id="footBox"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // $("#navBox").load("nav.html");
+      $("#footBox").load("footer.html");
+      $(".model").addClass("active");
+      $(".button-collapse").sideNav();
+      $(".dropdown-button").dropdown({
+        hover: true
+      });
+    });
+  </script>
+</body>
+
+</html>
