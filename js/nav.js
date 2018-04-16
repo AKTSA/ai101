@@ -51,7 +51,7 @@ document.write('\
               <ul>\
               <li><a href="abot.html">About</a></li>\
               <li><a href="model.html">3D Model</a></li>\
-              <li><a href="uses-mobile.html">Potential Uses</a></li>\
+              <li><a href="uses.html">Potential Uses</a></li>\
               <li><a href="bene.html">Benefits</a></li>\
               <li><a href="tech.html">Available Technologies</a></li>\
               <li><a href="conc.html">Safety Concerns and Liabilities</a></li>\
